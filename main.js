@@ -1,3 +1,4 @@
-onload = () =>{
-    document.body.classList.remove("container");
-};
+window.onload = () => {
+    document.querySelector(".fade-in").classList.add("visible");
+  };
+  
